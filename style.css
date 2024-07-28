@@ -1,0 +1,151 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: var(--light-gray);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  box-shadow: -2px -2px 15px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -2px -2px 15px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -2px -2px 15px -3px rgba(0, 0, 0, 0.75);
+}
+
+.community_wrapper p {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+h1 {
+  color: var(--cyan);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.community {
+  color: var(--bright-yellow);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subscription {
+  background-color: var(--cyan);
+  color: var(--light-gray);
+}
+
+.subscription h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.subscription p {
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+.subscription span {
+  font-size: 1.8rem;
+}
+
+.subscription p:last-of-type {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: -1em;
+}
+
+.subscription a {
+  background-color: var(--bright-yellow);
+  color: var(--light-gray);
+  font-weight: 700;
+}
+
+.why_us {
+  background-color: #4abebd;
+  color: var(--light-gray);
+}
+
+.why_us h2 {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.why_us li {
+  margin-left: -2.3em;
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  main {
+    max-width: 600px;
+    display: grid;
+    grid-template-rows: 250px 280px;
+    grid-template-areas:
+      "t t"
+      "l r";
+  }
+
+  .community_wrapper {
+    grid-area: t;
+  }
+
+  .subscription {
+    grid-area: l;
+  }
+
+  .why_us {
+    grid-area: r;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .community {
+    font-size: 1.3rem;
+  }
+
+  .subscription h2 {
+    font-size: 1.4rem;
+  }
+
+  .subscription p {
+    font-size: 0.8rem;
+    margin-bottom: 1.3em;
+  }
+
+  .subscription span {
+    font-size: 2rem;
+  }
+
+  .subscription p:last-of-type {
+    font-size: 1.05rem;
+  }
+
+  .subscription a {
+    font-size: 1.5rem;
+  }
+
+  .why_us h2 {
+    font-size: 1.2rem;
+  }
+
+  .why_us li {
+    margin-left: -2.3em;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+}
