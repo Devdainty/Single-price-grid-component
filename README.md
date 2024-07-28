@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Devdainty/Single-price-grid-component](https://github.com/Devdainty/Single-price-grid-component)
+- Live Site URL: [https://single-price-grid-component-seven-self.vercel.app/](https://single-price-grid-component-seven-self.vercel.app/)
 
 ## My process
 
@@ -57,11 +57,6 @@ main {
 ```
 
 ```
-
-
-
-
-
 ## Author
 
 - Frontend Mentor - [@devdainty](https://www.frontendmentor.io/profile/devdainty)
